@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'dkp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dkp_db',
+        'NAME': 'travello_db',
         'USER':'postgres',
         'PASSWORD' : '12345',
         'HOST' : 'localhost',
-        'PORT' :'5433'
+        'PORT' :'5432'
     }
 }
 
